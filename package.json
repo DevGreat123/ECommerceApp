@@ -1,0 +1,20 @@
+{
+  "name": "shop_it",
+  "version": "1.0.0",
+  "description": "e commerce website using mern stack",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "set NODE_ENV=DEVELOPMENT & nodemon backend/server.js",
+    "prod": "set NODE_ENV=PRODUCTION & nodemon backend/server.js"
+  },
+  "author": "Devwart",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
